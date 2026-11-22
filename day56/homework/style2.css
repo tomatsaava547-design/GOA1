@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #347f7f;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 25px;
+    width: 800px;
+    padding: 15px 10px;
+}
+
+.container div {
+    width: 106px;
+    height: 115px;
+    background-color: coral;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
